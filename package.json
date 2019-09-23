@@ -1,0 +1,27 @@
+{
+  "name": "rollup-plugin-web-components",
+  "version": "1.0.0",
+  "description": "Import and inject web component styles and templates with rollup",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": "juliendargelos/rollup-plugin-web-components",
+  "author": "Julien Dargelos <contact@juliendargelos.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w --noEmit",
+    "prepare": "install-peers"
+  },
+  "dependencies": {
+    "@types/cheerio": "^0.22.13",
+    "cheerio": "^1.0.0-rc.3"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.5",
+    "install-peers-cli": "^2.1.1",
+    "typescript": "^3.6.3"
+  },
+  "peerDependencies": {
+    "rollup": "^1.21.2"
+  }
+}
